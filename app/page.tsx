@@ -3,17 +3,15 @@ import Link from "next/link";
 export default function HomePage() {
   return (
     <section className="card">
-      <h2>Your UPSC Knowledge Base</h2>
+      <h2>UPSC Mains + PSIR Content Hub</h2>
       <p>
-        Build concise notes, PYQ insights, and revision checklists for both stages. Start with the
-        structure below and keep adding topics daily.
+        This wiki now focuses only on Mains with PSIR optional integration. Every topic follows a
+        complete answer-writing structure: Introduction, Significance (Context), Data, Features,
+        Challenges, Way Forward, and Conclusion.
       </p>
       <div className="grid">
-        <Link className="cta" href="/prelims">
-          Explore Prelims Wiki
-        </Link>
         <Link className="cta" href="/mains">
-          Explore Mains Wiki
+          Open Mains Repository
         </Link>
       </div>
     </section>

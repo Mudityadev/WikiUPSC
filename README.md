@@ -1,14 +1,20 @@
 # WikiUPSC (Next.js)
 
-Starter wiki project for UPSC preparation with separate sections for **Prelims** and **Mains**.
+Focused UPSC Mains knowledge base with **PSIR optional integration**.
 
 ## Features
 - Next.js App Router setup (TypeScript)
-- Dedicated routes:
-  - `/prelims`
+- Single focused route:
   - `/mains`
-- Reusable topic list component
-- Seeded topic structure you can expand into full notes/wiki pages
+- Structured answer-writing format for every topic:
+  - Introduction
+  - Significance (Context)
+  - Data
+  - Features
+  - Challenges
+  - Way Forward
+  - Conclusion
+- Topic cards with supporting photos
 
 ## Run locally
 ```bash
@@ -19,7 +25,7 @@ npm run dev
 Then open `http://localhost:3000`.
 
 ## Extend this into a real wiki
-- Add Markdown/MDX notes per topic.
-- Add search and tags.
-- Add PYQ links + year-wise categorization.
-- Add authentication if you want private notes.
+- Add more GS and PSIR themes with PYQ linkage.
+- Add dynamic filters by paper (GS-1/2/3/4, Essay, PSIR-I/II).
+- Attach source references (ARC, NITI, PRS, NFHS, SDG).
+- Add year-wise Mains answer bank.
