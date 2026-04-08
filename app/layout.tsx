@@ -4,7 +4,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "WikiUPSC",
-  description: "A focused wiki for UPSC Prelims and Mains prep"
+  description: "A focused wiki for UPSC Mains preparation with PSIR optional"
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -15,8 +15,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <h1>WikiUPSC</h1>
           <nav>
             <Link href="/">Home</Link>
-            <Link href="/prelims">Prelims</Link>
-            <Link href="/mains">Mains</Link>
+            <Link href="/mains">Mains + PSIR</Link>
           </nav>
         </header>
         <main className="container">{children}</main>
